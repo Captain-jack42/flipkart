@@ -4,11 +4,38 @@
 }
 
 .container {
+  position: fixed;
+  width: 100vw;
+  background-color: rgb(237, 237, 243);
+}
 
-  background-color: rgb(145, 145, 175);
+#menu-text {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 700;
+}
+
+
+#login-text {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 700;
+}
+
+#cart-text {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 700;
+}
+
+.logo {
+  font-size: x-large;
+  font-weight: 900;
+  color: rgb(220, 193, 45);
 }
 
 .navbar {
+
   width: 100%;
   height: 100px;
   display: flex;
@@ -18,20 +45,87 @@
 
 }
 
-.menu {}
-
-.logo {}
-
 
 #input {
+  height: 40px;
   width: 40%;
+  background-color: rgb(222, 188, 36);
+  border-radius: 5px;
 }
 
 #searchbox {
+  padding-left: 10px;
+  font-size: large;
+  height: 36px;
+  width: 93%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
 
-  height: 30px;
-  width: 100%;
+a {
+  text-decoration: none;
+}
+
+
+
+.sidebar {
+  align-content: space-evenly;
+  position: fixed;
+  margin-top: 100px;
+  text-align: center;
+  background-color: grey;
+  height: 70vh;
+  width: 15vw;
+
+}
+
+.sidecontent {
+  height: 50px;
+  width: 90%;
+  border-radius: 3px;
+  background-color: aqua;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.middle-content {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: start;
+
+}
+
+.item-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 84vw;
+  margin-top: 120px;
+  margin-left: 15vw;
+
+  background-color: lightcoral;
+}
+
+.item-box {
+  height: 300px;
+  width: 260px;
+  background-color: blueviolet;
+  margin: 20px;
+
+}
+
+.add-to-cart {
+  border: none;
+  height: 40px;
+  width: 48%;
   border-radius: 5px;
+  background-color: rgb(62, 165, 62);
+}
 
-
+.remove {
+  border: none;
+  height: 40px;
+  width: 48%;
+  border-radius: 5px;
+  background-color: rgb(146, 56, 56);
 }
